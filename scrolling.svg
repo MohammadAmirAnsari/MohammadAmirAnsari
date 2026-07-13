@@ -1,15 +1,4 @@
-  <svg xmlns="http://www.w3.org/2000/svg" width="600" height="40" viewBox="0 0 600 40">
-    <style>
-      .scroll {
-        font-family: sans-serif;
-        font-size: 20px;
-        fill: #58A6FF;
-        animation: marquee 10s linear infinite;
-      }
-      @keyframes marquee {
-        0% { transform: translateX(600px); }
-        100% { transform: translateX(-700px); }
-      }
-    </style>
-    <text y="25" class="scroll">Software Engineer X Turning Requirements Into Production-Ready Systems</text>
-  </svg>
+<svg width="800" height="60" viewBox="0 0 800 60" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="a"><path d="M0 0h800v60H0z"/></clipPath></defs><g clip-path="url(#a)"><text y="40" style="font-family:&quot;Segoe UI&quot;,Verdana,sans-serif;font-size:26px;font-weight:600;fill:#2e86c1">
+      <animate attributeName="x" from="800" to="-900" dur="10s" repeatCount="indefinite"/>
+      Software Engineer  •  Turning Requirements Into Production-Ready Systems  •
+    </text></g></svg>
