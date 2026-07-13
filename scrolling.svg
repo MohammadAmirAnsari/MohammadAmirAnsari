@@ -3,14 +3,13 @@
       .scroll {
         font-family: sans-serif;
         font-size: 20px;
-        color: #fff;
-        fill: #fff;
+        fill: #58A6FF;
         animation: marquee 10s linear infinite;
       }
       @keyframes marquee {
         0% { transform: translateX(600px); }
-        100% { transform: translateX(-300px); }
+        100% { transform: translateX(-700px); }
       }
     </style>
-    <text y="25" class="scroll">Your scrolling text goes here!</text>
+    <text y="25" class="scroll">Software Engineer X Turning Requirements Into Production-Ready Systems</text>
   </svg>
